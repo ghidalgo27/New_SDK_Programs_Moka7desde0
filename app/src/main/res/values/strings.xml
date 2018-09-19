@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">SCADA SIEMENS MOKA</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblMw">MB</string>
+    <string name="labelVal">VAL:</string>
+    <string name="labelUpdate">Update</string>
+    <string name="labelRemoteIP">Remote PLC IP :</string>
+    <string name="labelPLCModel">PLC Model :</string>
+    <string name="labelS7300">S7–300 Series</string>
+    <string name="labelS71200">S7–1200 / 1500 Series</string>
+    <string name="labelS7400">S7–400 Series</string>
+    <string name="labelRack">Rack :</string>
+    <string name="labelSlot">Slot :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pantalla2">Pantalla2</string>
+    <string name="_0">0</string>
+    <string name="_192_168_0_3">192.168.0.3</string>
+    <string name="_2">2</string>
+    <string name="connect">Conectar PLC</string>
+    <string name="_11">1</string>
+    <string name="mw">MW</string>
+    <string name="NUMBER">0</string>
+    <string name="_1">1</string>
+    <string name="value">Value</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="temperatura">Temperatura</string>
+</resources>

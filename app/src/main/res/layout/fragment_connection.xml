@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MainConnectionPage"
+    >
+
+    <TextView
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="@string/labelRemoteIP"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIpAddress"
+        android:text="@string/_192_168_0_3"
+        android:inputType="text"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:gravity="center"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/labelRack"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtRackNo"
+        android:enabled="true"
+        android:padding="5dp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:typeface="normal"
+        android:textSize="20sp"
+        android:singleLine="false"
+        android:text="@string/_1"
+        android:gravity="center"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/labelSlot"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtSlotNo"
+        android:text="@string/_0"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:typeface="normal"
+        android:gravity="center"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:nestedScrollingEnabled="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/connect"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mw"
+        android:id="@+id/textView4"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtMWAddress"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/NUMBER"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value"
+        android:id="@+id/lblValue"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtValue"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:text="@string/NUMBER"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="@string/actualizar" />
+
+    <EditText
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:enabled="true"
+        android:gravity="start"
+        android:inputType="text"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/botontemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperatura" />
+</LinearLayout>
